@@ -1,16 +1,16 @@
 # Define-FIXML
-Deliminates and defines Fixml message into readable English (Accepts TradeCaptRpt, AllocRpt, AllocInstrctnAlert)
+Deliminates and defines Fixml message into readable English. Currently accepts TradeCaptRpt, AllocRpt, AllocInstrctnAlert.
 
 ###Online Interface
 [Page Link](http://alek-s.github.io/Define-FIXML/)
 
 
 ###Use
-Enter a FIXML message from open tag to closing tag, as one line as would be sent by a clearing house.
-![Alt text](./formscreenshot.png)
+1. Enter a FIXML message from open tag to closing tag. Message should be one line as it would be sent by a clearing house.
+![Form](./formscreenshot.png)
 
-Press submit, and enjoy your easy to read table spelled out in plain English. You can also copy and paste this table into Word, Excel or an email.
-![Alt text](./screenshot.png)
+2. Press submit, and enjoy your easy to read table spelled out in plain English. You can also copy and paste this table into Word, Excel or an email.
+![Table](./screenshot.png)
 
 
 
