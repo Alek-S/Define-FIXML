@@ -15,8 +15,6 @@ Deliminates and defines Fixml message into readable English. Currently accepts T
 
 
 ###To Do List
-* Pull javascript out of html into own JS file for modularity/organization
-* Enrich UI/CSS and connect to derivative lookup tool
 * Sample messages for testing
 * Multi-line fixml message (for example when indented by tag)
 * Expand to more FIXML message types
