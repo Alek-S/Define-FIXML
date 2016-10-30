@@ -9,11 +9,10 @@
 				$('#result').append('<tr><th>Tag</th><th>Field</th><TH>Value</TH></tr>');
 				$('#error').text(null);
 
-				var input = $('#userString').val();
-				var inputClean = input.slice(input.indexOf('<FIXML'), input.indexOf('</FIXML>') + 8); //Clean the input in case of unthoughtful user adding noise
-				var fixmlObject = FixmlToOBJ(inputClean);
-				console.log('Cleaned: ' + inputClean);//for debug
-				console.log(fixmlObject); //for debug
+				var input = $('#userString').val(),
+					inputClean = input.slice(input.indexOf('<FIXML'), input.indexOf('</FIXML>') + 8), //Clean the input in case of unthoughtful user adding noise
+					fixmlObject = FixmlToOBJ(inputClean);
+
 
 				//error check
 				if(fixmlObject.err != 'none'){ 
@@ -355,11 +354,11 @@
 				NSE: {name: 'National Stock Exchange of India', website:'http://www.nseindia.com/'},
 				BSE: {name: 'Bombay Stock Exchange', website:'http://www.bseindia.com/'},
 				IEX: {name: 'Indian Energy Exchange', website:'http://www.iexindia.com/'},
-				HKEx: {name: 'Hong Kong Exchange', website:'https://www.hkex.com.hk/eng/index.htm'},
+				HKEX: {name: 'Hong Kong Exchange', website:'https://www.hkex.com.hk/eng/index.htm'},
 				SHFE: {name: 'Shanghai Futures Exchange', website:'http://www.shfe.com.cn/en/'},
 				ZCE: {name: 'Zhengzhou Commodity Exchange', website:'english.czce.com.cn'},
 				SAFEX: {name: 'South African Futures Exchange', website:'www.safex.co.za'},
-				MexDer: {name: 'Mexican Derivatives Exchange', website:'http://www.cmegroup.com/international/partnership-resources/mexder-resources.html'},
+				MEXDER: {name: 'Mexican Derivatives Exchange', website:'http://www.cmegroup.com/international/partnership-resources/mexder-resources.html'},
 				BVMF: {name: 'Bolsa de Valores, Mercadorias & Futuros de SÃ£o Paulo', website:'http://www.bmfbovespa.com.br/en-us/home.aspx?idioma=en-us'},
 				OMIP: {name: 'Iberian Energy Clearing House', website:'http://www.omiclear.pt/OMIClear/tabid/130/language/en-GB/Default.aspx'},
 				error: {name: market + ' (unknown exchange)', website: 'http://www.iotafinance.com/en/ISO-10383-Market-Identification-Codes-MIC.html'} //error handling
