@@ -1,8 +1,7 @@
 # Define-FIXML
 Deliminates and defines Fixml message into readable English. Currently accepts TradeCaptRpt, AllocRpt, AllocInstrctnAlert.
 
-###Online Interface
-[Page Link](http://alek-s.github.io/Define-FIXML/)
+####Try It Now: [Page Link](http://alek-s.github.io/Define-FIXML/)
 
 
 ###Use
@@ -14,7 +13,7 @@ Deliminates and defines Fixml message into readable English. Currently accepts T
 
 
 
-###To Do List
+####To Do List
 * Sample messages for testing
 * Multi-line fixml message (for example when indented by tag)
 * Expand to more FIXML message types
