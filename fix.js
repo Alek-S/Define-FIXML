@@ -345,7 +345,7 @@
 				BDM: {name:'Bourse de MontrÃ©al (Montreal Exchange / TMX)', website:'https://www.m-x.ca/accueil_en.php'},
 				TMX: {name:'TMX (Montreal Exchange / TMX)', website:'https://www.tmx.com/'},
 				CDCC: {name:'Canadian Derivatives Clearing Corporation (Montreal Exchange)', website:'http://www.cdcc.ca/index_en'},
-				Nadex: {name:'Northern American Derivatives Exchange (HedgeStreet)', website:'http://www.nadex.com/'},
+				NADEX: {name:'Northern American Derivatives Exchange (HedgeStreet)', website:'http://www.nadex.com/'},
 				LIFFE: {name:'ICE Futures Europe (London International Financial Futures and Options Exchange)', website:'https://www.theice.com/futures-europe'},
 				MEFF: {name:'Mercado EspaÃ±ol de Futuros Financieros', website:'http://www.meff.es/'},
 				OMX: {name:'NASDAQ OMX', website:'http://business.nasdaq.com/'},
