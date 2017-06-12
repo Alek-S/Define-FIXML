@@ -1,3 +1,5 @@
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+
 # Define-FIXML
 Deliminates and defines Fixml message into readable English. Currently accepts TradeCaptRpt, AllocRpt, AllocInstrctnAlert.
 ![Demo](./screenshots/demo.gif)
