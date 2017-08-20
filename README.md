@@ -4,7 +4,7 @@
 Deliminates and defines Fixml message into readable English. Currently accepts TradeCaptRpt, AllocRpt, AllocInstrctnAlert.
 ![Demo](./screenshots/demo.gif)
 
-#### Try It Now: [Page Link](http://alek-s.github.io/Define-FIXML/)
+#### Try It Now: [Page Link](https://alekshnayder.com/Define-FIXML/)
 
 
 ### Use
